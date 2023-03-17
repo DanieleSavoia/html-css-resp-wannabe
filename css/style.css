@@ -127,3 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ @media (min-width:0px) and (max-width:468px) {
+     
+    h1 { 
+        background-color:red;}      
+    }
+      
+
