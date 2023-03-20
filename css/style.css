@@ -129,10 +129,50 @@ img {
  ************************************************/
 
 
- @media (min-width:0px) and (max-width:468px) {
+ @media (max-width:480px) {
+
+   
+        
      
-    h1 { 
-        background-color:red;}      
+ .body{ 
+    width: 480px;
+    padding: 0;}
+
+    .container{ 
+        width: 480px;
+        padding: 0;}
+ .col { 
+    width: 100%;
+    display: block;
+    margin: auto;
+    
     }
-      
+.row {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+  }
+  .card { 
+     margin-top: 5px;
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+    }
+   
+    .lessons .col {
+        width: 70%;
+    } 
+
+    .steps .col {
+        width:100%;
+    }
+
+
+}
+
+    
+ 
+        
+
 
